@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Asteroid</string>
+    <string name="title">ASTEROIDE</string>
+    <string name="play">Jugar</string>
+    <string name="config">Configuracion</string>
+    <string name="info">Información</string>
+    <string name="exit">Salir</string>
+</resources>
