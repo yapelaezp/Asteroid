@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">Asteroid</string>
+    <string name="title">ASTEROID</string>
+    <string name="play">Spiel</string>
+    <string name="config">Konfiguration</string>
+    <string name="info">Information</string>
+    <string name="exit">Ausgehen</string>
+</resources>
