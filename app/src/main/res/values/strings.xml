@@ -5,4 +5,12 @@
     <string name="config">Configuracion</string>
     <string name="info">Información</string>
     <string name="exit">Salir</string>
+    <string name="name_app">Nombre app: Asteroid</string>
+    <string name="developer">Desarrolador: Yesid Peláez</string>
+    <string name="language"> Lenguaje: Java</string>
+    <string name="year">Año: 2021</string>
+
+
+
+
 </resources>

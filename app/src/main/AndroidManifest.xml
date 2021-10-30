@@ -16,6 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Informacion"
+            android:theme="@style/Animation.Design.BottomSheetDialog">
+        </activity>
     </application>
 
 </manifest>
