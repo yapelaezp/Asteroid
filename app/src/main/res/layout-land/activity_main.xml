@@ -27,14 +27,14 @@
             android:gravity="center">
 
             <Button
-                android:id="@+id/button6"
+                android:id="@+id/btnJugar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/play"
                 app:backgroundTint="#0F28B1" />
 
             <Button
-                android:id="@+id/button5"
+                android:id="@+id/btnConfig"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/config"
@@ -47,7 +47,7 @@
             android:gravity="center">
 
             <Button
-                android:id="@+id/button8"
+                android:id="@+id/btnInfo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="verInformacion"
@@ -55,10 +55,11 @@
                 app:backgroundTint="#0F28B1" />
 
             <Button
-                android:id="@+id/button7"
+                android:id="@+id/btnSalir"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/exit"
+                android:onClick="finalizar"
                 app:backgroundTint="#0F28B1" />
         </TableRow>
 

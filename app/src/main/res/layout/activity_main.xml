@@ -20,21 +20,21 @@
         android:textSize="40sp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnJugar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/play"
         app:backgroundTint="#3F51B5" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnConfig"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/config"
         app:backgroundTint="#3F51B5" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btnInfo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="verInformacion"
@@ -42,9 +42,10 @@
         app:backgroundTint="#3F51B5" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/btnSalir"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/exit"
+        android:onClick="finalizar"
         app:backgroundTint="#3F51B5" />
 </LinearLayout>

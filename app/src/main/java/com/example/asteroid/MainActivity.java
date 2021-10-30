@@ -13,8 +13,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+
     public void verInformacion (View vistaInformacion){
         Intent i = new Intent(this,Informacion.class);
         startActivity(i);
+    }
+
+    public void finalizar(View view){
+        finish();
     }
 }
