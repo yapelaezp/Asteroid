@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center_horizontal|center_vertical"
-    android:orientation="vertical"
-    tools:context=".MainActivity">
+    android:orientation="vertical">
 
-    <include layout="@layout/tool_bar"
-        android:id="@+id/tool_bar"/>
+    <include
+        android:id="@+id/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="66dp"
         android:gravity="center_horizontal"
         android:paddingBottom="200dp"
         android:text="@string/title"
@@ -25,29 +25,29 @@
         android:id="@+id/btnJugar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/play"
-        app:backgroundTint="#3F51B5" />
+        android:text="@string/play" />
 
     <Button
         android:id="@+id/btnConfig"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/config"
-        app:backgroundTint="#3F51B5" />
+        android:text="@string/config" />
 
     <Button
         android:id="@+id/btnInfo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="verInformacion"
-        android:text="@string/info"
-        app:backgroundTint="#3F51B5" />
+        android:text="@string/info" />
 
     <Button
         android:id="@+id/btnSalir"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/exit"
+        android:layout_marginTop="10dp"
         android:onClick="finalizar"
-        app:backgroundTint="#3F51B5" />
+        android:text="@string/exit" />
+
 </LinearLayout>
+
+
